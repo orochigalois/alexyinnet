@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Alex Yin</title>
+    
+    <meta name="description" content="I am Alex Yin, a programmer working hard to be fullstack." />
+    <meta name="author" content="Alex Yin" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+    <div id="welcome" class="step" data-x="-1000" data-y="-1500">
+        <q>Welcome to Alexyin.net</q>
+    </div>
+
+    <div id="me" class="step" data-x="-1000" data-y="1500" data-rotate="90" data-scale="5">
+        <span class="hello">Hello,</span> I'm a software developer and currently living in Geelong,Victoria,Australia
+    </div>
+
+    <div id="skill1" class="step" data-x="1000" data-y="-1000" data-rotate="90" data-scale="5">
+        <p>I have a diverse set of skills,ranging from <b class="rotating2">design,</b></br>to <b class="rotating1">HTML+CSS+Javascript</b>, all the way to <b class="rotating2">PHP, MySql</b> development and <b class="rotating1">Linux</b> server administration.</p>
+    </div>
+
+    
+    <div id="skill2" class="step" data-x="1000" data-y="2000" data-rotate="180" data-scale="5">
+        <p>I also have experience on <b class="scaling">mobile application development</b> and <b class="scaling">desktop application development.</b></p>
+    </div>
+
+    <div id="skill3" class="step" data-x="5000" data-y="-1000" data-rotate="0" data-scale="7">
+        I'm a fast learner and enthusiastic coder, picking up a new framework or technology isn't a problem.
+    </div>
+
+ 
+    <div id="work" class="step" data-x="0" data-y="0" data-z="-3000">
+        <p>Some of my recent work</p>
+    </div>
+
+
+    <div id="work_3dcar"  class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="50" data-rotate-y="50" data-scale="5">
+        <a href="work1_3dcar/3dcar.html">3D Diagnostics</a>
+    </div>
+    <div id="work_sg" class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="100" data-rotate-y="100" data-scale="5">
+        <a href="work2_SG/SG.html">Shooting Game</a>
+    </div>
+    <div id="work_focusdata" class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="150" data-rotate-y="150" data-scale="5">
+        <a href="http://www.drpages.com.au">Doctor Appointment Centre</a>
+    </div>
+    <div id="work_bl" class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="200" data-rotate-y="200" data-scale="5">
+        <a href="https://github.com/orochigalois/BeautifulLetter">Beautiful Letter</a>
+    </div>
+
+    <div id="seeking" class="step" data-x="1000" data-y="4000" data-scale="5">
+        <p>I am currently seeking a job, if you are an employer looking to hire, you can get in touch with me by <a href="mailto:fudanyinxin@gmail.com">fudanyinxin@gmail.com</a> or <a href="https://github.com/orochigalois">Github</a></p>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
