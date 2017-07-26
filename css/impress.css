@@ -174,7 +174,8 @@ a:focus {
     font-size: 70px;
 }
 
-#skill1 { width: 500px }
+#skill1 { width: 500px;
+font-size: 30px;}
 
 
 #skill1 b {
