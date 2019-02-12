@@ -280,6 +280,28 @@ font-size: 30px;}
     background-position: bottom right;
     background-repeat: no-repeat;
 } 
+#work_2birds{
+    font-size: 60px;
+    background-image: url(../img/birds.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+#work_homemaker{
+    font-size: 60px;
+    background-image: url(../img/homemaker.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+#work_lasal{
+    font-size: 60px;
+    background-image: url(../img/lasal.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+} 
 
 #work_focusdata{
     width:1000px;
