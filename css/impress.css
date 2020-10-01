@@ -174,7 +174,7 @@ a:focus {
     font-size: 70px;
 }
 
-#skill1 { width: 500px;
+#skill1 { width: 800px;
 font-size: 30px;}
 
 
@@ -260,6 +260,10 @@ font-size: 30px;}
 }
 
 
+#cloudcanvas{
+    padding-top:200px;
+}
+
 
 #work {
     width: 500px;
@@ -280,9 +284,9 @@ font-size: 30px;}
     background-position: bottom right;
     background-repeat: no-repeat;
 } 
-#work_2birds{
+#work_strapper{
     font-size: 60px;
-    background-image: url(../img/birds.png);
+    background-image: url(../img/strapper.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: contain;

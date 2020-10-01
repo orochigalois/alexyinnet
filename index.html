@@ -27,50 +27,55 @@
 <div id="impress">
 
     <div id="welcome" class="step" data-x="-1000" data-y="-1500">
-        <q>Welcome to Alexyin.net</q>
+        <q>Welcome to Alexyin.co</q>
     </div>
 
     <div id="me" class="step" data-x="-1000" data-y="1500" data-rotate="90" data-scale="5">
-        <span class="hello">Hello,</span> I'm a software developer and currently living in Geelong,Victoria,Australia
+        <span class="hello">Hello,</span> I'm a web developer and currently living in Geelong,Victoria,Australia
     </div>
 
     <div id="skill1" class="step" data-x="1000" data-y="-1000" data-rotate="90" data-scale="5">
-        <p>I have a diverse set of skills,ranging from <b class="rotating2">design,</b></br>to <b class="rotating1">HTML+CSS+Javascript</b>, all the way to <b class="rotating2">PHP, MySql</b> development and <b class="rotating1">Linux</b> server administration.</p>
+        <p>I have a diverse set of skills,ranging from <b class="rotating1">design,</b></br>to <b class="rotating1">HTML+CSS+Javascript</b>, all the way to <b class="rotating2">PHP, MySql</b> development and web <b class="rotating2">Hosting</b></p>
     </div>
 
-    
     <div id="skill2" class="step" data-x="1000" data-y="2000" data-rotate="180" data-scale="5">
-        <p>I also have experience on <b class="scaling">mobile application development</b> and <b class="scaling">desktop application development.</b></p>
+        <p>I specialise in  <b class="scaling">WordPress</b> and <b class="scaling">WooCommerce</b> including custom themes and plugins.</p>
     </div>
 
     <div id="skill3" class="step" data-x="5000" data-y="-1000" data-rotate="0" data-scale="7">
         I'm a fast learner and enthusiastic coder, picking up a new framework or technology isn't a problem.
     </div>
+    <div id="precloud" class="step" data-x="2000" data-y="0" data-z="-1000">
+        <p>There are tons of interesting things I loved to play with:</p>
+    </div>
 
+    <div id="cloud" class="step" data-x="0" data-y="-6000" data-rotate="0" data-scale="7">
+        <canvas id="cloudcanvas"></canvas>
+    </div>
  
-    <div id="work" class="step" data-x="0" data-y="0" data-z="-3000">
+    <div id="work" class="step" data-x="0" data-y="0" data-z="-1000">
         <p>Some of my recent work</p>
     </div>
 
 
     <div id="work_3dcar"  class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="50" data-rotate-y="50" data-scale="5">
-        <a href="work1_3dcar/3dcar.html">3D Diagnostics</a>
+        <a href="work1_3dcar/3dcar.html" target="_blank">3D Diagnostics</a>
     </div>
     <div id="work_sg" class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="100" data-rotate-y="100" data-scale="5">
-        <a href="work2_SG/SG.html">Shooting Game</a>
+        <a href="work2_SG/SG.html" target="_blank">Shooting Game</a>
     </div>
-    <div id="work_2birds" class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="150" data-rotate-y="150" data-scale="5">
-        <a href="http://twobirdshairandbeautysalon.com/">Two Birds Salon</a>
+    <div id="work_strapper" class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="150" data-rotate-y="150" data-scale="5">
+        <a href="https://strapper.com.au/" target="_blank">Strapper</a>
     </div>
     <div id="work_homemaker" class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="200" data-rotate-y="200" data-scale="5">
-        <a href="https://www.penrithhomemakercentre.com.au/">Homemaker</a>
+        <a href="https://www.penrithhomemakercentre.com.au/" target="_blank">Homemaker</a>
     </div>
     <div id="work_lasal" class="step" data-x="6000" data-y="2000" data-z="-100" data-rotate-x="250" data-rotate-y="250" data-scale="5">
-        <a href="https://www.lasalchelsea.com.au/">Lasal</a>
+        <a href="https://www.lasalchelsea.com.au/"  target="_blank">Lasal</a>
     </div>
 
     <div id="seeking" class="step" data-x="1000" data-y="4000" data-scale="5">
-        <p>Contact me by <a href="mailto:fudanyinxin@gmail.com">fudanyinxin@gmail.com</a> or <a href="https://github.com/orochigalois">Github</a></p>
+        <p>Contact me by <a href="mailto:fudanyinxin@gmail.com">fudanyinxin83@gmail.com</a> or <a href="https://github.com/orochigalois" target="_blank">Github</a></p>
     </div>
 
     <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
@@ -88,6 +93,7 @@ if ("ontouchstart" in document.documentElement) {
 </script>
 
 <script src="js/impress.js"></script>
+<script src="js/canvas.js"></script>
 <script>impress().init();</script>
 
 </body>
