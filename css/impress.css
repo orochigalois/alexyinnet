@@ -271,22 +271,24 @@ font-size: 30px;}
 }
 
 
-#work_3dcar{
+#work_yangs{
     font-size: 60px;
-    background-image: url(../img/3dcar.png);
+    background-image: url(../img/yangs.png);
     background-position: bottom right;
     background-repeat: no-repeat;
+    background-size: contain;
 } 
 
-#work_sg{
+#work_bakers{
     font-size: 60px;
-    background-image: url(../img/sg.png);
+    background-image: url(../img/bakers.png);
     background-position: bottom right;
     background-repeat: no-repeat;
+    background-size: contain;
 } 
-#work_strapper{
+#work_ibsa{
     font-size: 60px;
-    background-image: url(../img/strapper.png);
+    background-image: url(../img/ibsa.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: contain;
